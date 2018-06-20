@@ -1,0 +1,936 @@
+﻿body {
+    direction: rtl;
+    text-align: right;
+}
+
+.logo {
+    height: 150px;
+    width: 25%;
+    margin-right: 37.5%;
+    margin-left: 37.5%;
+    margin-top:5px;
+}
+
+#home {
+    background-attachment: fixed;
+    background-image: url('../imgs/spring_pixabay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+#couple {
+    background-attachment: fixed;
+    background-image: url('../imgs/people-2561053_pixabay.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+#young {
+    background-attachment: fixed;
+    background-image: url('../imgs/women-having-fun-near-tent_23-freepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+#family {
+    background-attachment: fixed;
+    background-image: url('../imgs/parents-with-little-daughters-outdoor_1398-4780freepiik.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+#indian {
+    background-attachment: fixed;
+    background-image: url('../imgs/sticks-and-cones-for-bonfire_freepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+#handicap {
+    background-attachment: fixed;
+    background-image: url('../imgs/landscape-freedom-activity-sweatingfreepic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+#contact {
+    background-attachment: fixed;
+    background-image: url('../imgs/stream-1149882_pixabay (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.bcgpic {
+    background-attachment: fixed;
+    background-image: url('../imgs/green-1072828_pixabay (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.wrapmain {
+    height: auto;
+    padding: 0px 35px 35px 35px;
+}
+
+/*this element requiers for the white background at all pages */
+.whitescr {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: auto;
+    height: auto;
+    paint-order: fill;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-family: Alef;
+    font-size: 20px;
+}
+
+input[type ='text'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+    font-family: Alef;
+    font-size: 20px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+    font-family: Alef;
+    font-size:20px;
+}
+
+.btncontact {
+    float: left;
+    background-color: #0A7E3A;
+    margin-top: -135px;
+    padding: 8px 16px 8px 16px;
+    box-shadow: 2px 7px 10px;
+    font-family:'Amatic SC';
+    font-size:25px;
+}
+.btncontact ul li a {
+    background-color: #782384;
+    color:white;
+    display:flex; 
+    text-decoration:none;
+    list-style:none;
+}
+    .btncontact a {
+        color: white;
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+    }
+    .btncontact ul {
+        list-style: none;
+    }
+
+    .btncontact ul li {
+        display: inline-block;
+        float: none;
+    }
+
+        .btncontact ul li a {
+            display: block;
+            color: #782384;
+            width: 120px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+.mainmenu ul {
+    list-style: none;
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-right: -103px;
+}
+
+    .mainmenu ul li {
+        display: inline-block;
+        float: none;
+        padding-right: 36px;
+    }
+
+        .mainmenu ul li a {
+            display: block;
+            color: #782384;
+            width: 143px;
+            height: 30px;
+            padding-top: 10px;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Amatic SC';
+            font-size: 35px;
+        }
+
+        .mainmenu ul li a:hover {
+            color: green;
+        }
+
+        .mainmenu ul li a:active {
+            color: greenyellow;
+        }
+
+    .mainmenu ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    .mainmenu ul li:hover > ul {
+        display: block;
+        width: 120px;
+    }
+
+#page {
+    color: green;
+}
+
+footer {
+    background-color: #747575;
+    color: #0A7E3A;
+    text-decoration: none;
+    margin-bottom: -25px;
+    width: -webkit-fill-available;
+}
+
+
+.inlist {
+    list-style:none;
+}
+
+.bread{
+    display:inline-block;
+}
+.bread ul {
+    list-style: none;
+}
+
+    .bread ul li {
+        display: inline-block;
+        float: none;
+        font-size: 10pt;
+    }
+
+            .bread ul li a{
+    color: #782384;
+    text-decoration: none;
+    text-align: center;
+    font-size:10pt;
+}
+.bread ul li::after {
+    content:">";
+}
+
+.bread ul li:last-child::after {
+    content:"";
+}
+
+.allsqr {
+    margin-top:30px;
+}
+/*סידור האלמנטים לפי ימין ושמאל-ארבעת הקוביות שמתחת לתמונה ראשית*/
+.right {
+    width: 40%;
+    display: inline-block;
+    margin-left: 5%
+}
+
+.left {
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 5%;
+    display: inline-block;
+    float: left;
+}
+/*כפתור ירוק על גבי התמונות- גם לפי חלוקה לימין ושמאל */
+.gor {
+    border-radius: 180px;
+    background-color: #0A7E3A;
+    color: white;
+    font-size: 32pt;
+    font-family: cursive;
+    padding: 5px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.gor a {
+    text-decoration:none;
+    list-style:none;
+}
+    .gor a:hover {
+        text-decoration: none;
+        color: greenyellow;
+    }
+.gol {
+    border-radius: 180px;
+    background-color: #0A7E3A;
+    color: white;
+    font-size: 32pt;
+    font-family: cursive;
+    padding: 5px;
+    float: left;
+    margin-top: 145px;
+    margin-left: 15px;
+}
+
+    .gol a {
+        text-decoration: none;
+        list-style: none;
+    }
+.gol a:hover {
+    text-decoration: none;
+    color:greenyellow;
+}
+    .gor a:hover {
+        text-decoration: none;
+    }
+.gor1 {
+    border-radius: 180px;
+    background-color: #0A7E3A;
+    color: white;
+    font-size: 32pt;
+    font-family: cursive;
+    padding: 5px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+    .gor1 a {
+        text-decoration: none;
+        list-style: none;
+    }
+
+        .gor1 a:hover {
+            text-decoration: none;
+            color: greenyellow;
+        }
+
+.gol1 {
+    border-radius: 180px;
+    background-color: #0A7E3A;
+    color: white;
+    font-size: 32pt;
+    font-family: cursive;
+    padding: 5px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+    .gol1 a {
+        text-decoration: none;
+        list-style: none;
+    }
+
+        .gol1 a:hover {
+            text-decoration: none;
+            color: greenyellow;
+        }
+
+.gor a:hover {
+    text-decoration: none;
+}
+/*מזהה עבור כל ריבוע*/
+#sqr1 {
+    background-image: url('../imgs/campfire_beach_people_party_sunset_twilight_dusk_ocean-846961.jpg');
+    height: 230px;
+    width: 380px;
+    position: inherit;
+    margin: 4px 0px 15px 15px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 59px;
+    background-repeat: round;
+}
+/*שורות שעל גבי ארבעת הריבועים*/
+.ftline {
+    line-height: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.sdline {
+    margin-top: -24px;
+    text-align: center;
+}
+/*לבן אטום מאחורי הטקסט שעל הריבועים*/
+.wrap {
+    background-color: #ffffffed;
+    border-radius: 17px 0px 17px 0px;
+    margin: 15px 15px 15px 15px;
+    padding: 3px;
+    float: right;
+    box-shadow: 7px 10px 10px;
+}
+/*כותרות עבור הריבועים*/
+.personahr {
+    font-size: 20pt;
+    margin: 0px 25px 0px 240px;
+    background-image: url(../imgs/squre.png);
+    color: white;
+    border-radius: 13px;
+    padding: 2px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    background-repeat: round;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+}
+
+.personahl {
+    font-size: 20pt;
+    margin: 0px 25px 0px 240px;
+    background-image: url(../imgs/squre.png);
+    color: white;
+    border-radius: 13px;
+    padding: 2px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    background-repeat: round;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+}
+    .personahl a {
+        font-size: 25pt;
+        color: white;
+        border-radius: 13px;
+        padding-bottom: 3px;
+        margin-top: 10px;
+        background-repeat: round;
+        height: 40px;
+        width: 190px;
+        text-align: center;
+    }
+.personahr a {
+    font-size: 25pt;
+    color: white;
+    border-radius: 13px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    background-repeat: round;
+    height: 40px;
+    width: 190px;
+    text-align: center;
+}
+#sqr2 {
+    background-image: url('../imgs/unrecognizable-woman-offering-to-follow-her_23-freepic.jpg');
+    height: 230px;
+    width: 380px;
+    margin-top: 4px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 59px;
+    background-repeat: round;
+    /*float: left;*/
+}
+
+#sqr3 {
+    background-image: url('../imgs/family-2611748_1280_pixabay.jpg');
+    background-repeat: round;
+    height: 230px;
+    width: 380px;
+    margin-top: 4px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 59px;
+}
+#sqr4 {
+    background-image: url('../imgs/wheelchair-749985_960_720.jpg');
+    background-repeat: round;
+    height: 230px;
+    width: 380px;
+    margin-top: 4px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 59px;
+}
+#sec{
+    float:left;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 55px;
+    font-family:'Amatic SC';
+    font-size:50px;
+}
+h2, h3 {
+    text-align: center;
+    font-family: 'Amatic SC';
+    margin-bottom: 25px;
+}
+p, ul{
+    font-family:Alef;
+    font-size:18px;
+    margin-bottom:25px;
+}
+ a:hover{
+     text-emphasis-color:white;
+ }
+.bread {
+    margin-bottom: 25px;
+}
+/*אייקונים בדפים פנימיים*/
+#iconphone {
+    float: right;
+    margin-top: -155px;
+    margin-right: 80px;
+    background-image: url('../imgs/phone.png');
+    height: 153px;
+    width: 153px;
+}
+
+#iconcouple {
+    float: right;
+    margin-top: -180px;
+    margin-right: 45px;
+    background-image: url('../imgs/4.png');
+    height: 145px;
+    width: 145px;
+}
+
+#iconfamily {
+    float: right;
+    margin-top: -180px;
+    margin-right: 45px;
+    background-image: url('../imgs/1.png');
+    height: 145px;
+    width: 144px;
+}
+
+#iconyoung {
+    float: right;
+    margin-top: -180px;
+    margin-right: 45px;
+    background-image: url('../imgs/2.png');
+    height: 144px;
+    width: 145px;
+}
+
+#iconhandicp {
+    float: right;
+    margin-top: -180px;
+    margin-right: 45px;
+    background-image: url('../imgs/3.png');
+    height: 144px;
+    width: 145px;
+}
+
+.iconWine {
+    width: 60px;
+    height: 60px;
+    background-image: url(../imgs/Wine-glasses.png);
+    float: right;
+    background-repeat: round;
+}
+
+.lih {
+    line-height: 70px;
+}
+.iconstar {
+    float: right;
+    margin-top: 23px;
+    margin-right: 207px;
+    background-image: url(../imgs/star.png);
+    height: 81px;
+    width: 430px;
+    margin-bottom:20px;
+}
+
+.icontent {
+    width: 55px;
+    height: 50px;
+    background-image: url('../imgs/tent.png');
+    float: right;
+    background-repeat: round;
+}
+
+
+.iconhammock {
+    width: 110px;
+    height: 40px;
+    background-image: url('../imgs/hammock.png');
+    float: right;
+    background-repeat: round;
+}
+
+.iconjeep {
+    width: 50px;
+    height: 40px;
+    background-image: url('../imgs/Jeep.png');
+    float: right;
+    background-repeat: round;
+}
+.iconattractions {
+    width: 50px;
+    height: 50px;
+    background-image: url('../imgs/attractions.png');
+    float: right;
+    background-repeat: round;
+}
+
+.iconpot {
+    width: 55px;
+    height: 45px;
+    background-image: url('../imgs/pot.png');
+    float: right;
+    background-repeat: round;
+}
+
+.iconac {
+    width: 90px;
+    height: 30px;
+    background-image: url('../imgs/AC.png');
+    float: right;
+    background-repeat: round;
+}
+
+.iconshower {
+    width: 55px;
+    height: 60px;
+    background-image: url('../imgs/Shower.png');
+    float: right;
+    background-repeat: round;
+}
+
+.iconelectricity {
+    width: 80px;
+    height: 40px;
+    background-image: url('../imgs/Electricity.png');
+    float: right;
+    background-repeat: round;
+}
+
+.iconmusic {
+    width: 30px;
+    height: 40px;
+    background-image: url('../imgs/music.png');
+    float: right;
+    background-repeat: round;
+}
+
+.credit {
+    font-size: 5pt;
+    background-color: azure;
+}
+/*מיקום האייקונים בחלק התחתון בדף משפחות*/
+#iconcarf {
+    margin-left: -85px;
+    margin-right: 52px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/car.png);
+    float: left;
+    background-repeat: round;
+    margin-top: 10px;
+}
+
+#iconbagf {
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/bag.png);
+    background-repeat: round;
+    margin-right: -105px;
+    margin-top: 8px;
+    float: right;
+}
+
+#icontent2f {
+    width: 85px;
+    height: 65px;
+    background-image: url(../imgs/tent2.png);
+    float: right;
+    background-repeat: round;
+    margin-top: 15px;
+    margin-right: -177px;
+}
+/*מיקום האייקונים בחלק התחתון בדף זוגות*/
+#iconcarc {
+    margin-left: -85px;
+    margin-right: 52px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/car.png);
+    float: left;
+    background-repeat: round;
+    margin-top: 10px;
+}
+
+#iconbagc {
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/bag.png);
+    background-repeat: round;
+    margin-right: -181px;
+    margin-top: 10px;
+    float: right;
+}
+
+#icontent2c {
+    width: 85px;
+    height: 65px;
+    background-image: url(../imgs/tent2.png);
+    float: right;
+    background-repeat: round;
+    margin-top: 15px;
+    margin-right: -177px;
+}
+/*מיקום האייקונים בחלק התחתון בדף בעלי מוגבלויות*/
+#iconcarh {
+    margin-left: -85px;
+    margin-right: 52px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/car.png);
+    float: left;
+    background-repeat: round;
+    margin-top: 10px;
+}
+
+#iconbagh {
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/bag.png);
+    background-repeat: round;
+    margin-right: -181px;
+    margin-top: 10px;
+    float: right;
+}
+
+#icontent2h {
+    width: 85px;
+    height: 65px;
+    background-image: url(../imgs/tent2.png);
+    float: right;
+    background-repeat: round;
+    margin-top: 15px;
+    margin-right: -177px;
+}
+
+/*מיקום האייקונים בחלק התחתון בדף צעירים*/
+#iconcary {
+    margin-left: -85px;
+    margin-right: 52px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/car.png);
+    float: left;
+    background-repeat: round;
+    margin-top: 10px;
+}
+
+#iconbagy {
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgs/bag.png);
+    background-repeat: round;
+    margin-right: -181px;
+    margin-top: 10px;
+    float: right;
+}
+
+#icontent2y {
+    width: 85px;
+    height: 65px;
+    background-image: url(../imgs/tent2.png);
+    float: right;
+    background-repeat: round;
+    margin-top: 15px;
+    margin-right: -177px;
+}
+/*קרדיט לתמונות בדף הבית */
+#crd {
+    float: left;
+    margin-top: 58%;
+    margin-left: -21%;
+}
+.what{
+    display:inline-block;
+    width:100%;
+}
+/*מיקום הטקסט בחלק התחון של דף משפחות*/
+#onef {
+    margin-right: 45px;
+    margin-top: -20px;
+    width: 250px;
+    float: right;
+}
+#twof {
+    margin-right: 73px;
+    margin-top: -20px;
+    float: right;
+}
+
+#threef {
+    margin-left: 105px;
+    margin-top: -20px;
+    float: left;
+}
+/*מיקום הטקסט בחלק התחון של דף זוגות*/
+#onec {
+    margin-right: 7px;
+    margin-top: -20px;
+    width: 250px;
+    float: right;
+}
+
+#twoc {
+    margin-right: 70px;
+    margin-top: -20px;
+    float: right;
+}
+
+#threec {
+    margin-left: 55px;
+    margin-top: -20px;
+    float: left;
+}
+/*מיקום הטקסט בחלק התחון של דף בעלי מוגבלויות*/
+#oneh {
+    margin-right: 7px;
+    margin-top: -20px;
+    width: 250px;
+    float: right;
+}
+
+#twoh {
+    margin-right: 55px;
+    margin-top: -20px;
+    float: right;
+}
+
+#threeh {
+    margin-left: 55px;
+    margin-top: -20px;
+    float: left;
+}
+
+/*מיקום הטקסט בחלק התחון של דף צעירים*/
+#oney {
+    margin-right: 7px;
+    margin-top: -20px;
+    width: 250px;
+    float: right;
+}
+
+#twoy {
+    margin-right: 55px;
+    margin-top: -20px;
+    float: right;
+}
+
+#threey {
+    margin-left: 55px;
+    margin-top: -20px;
+    float: left;
+}
+footer {
+    display: inline-block;
+}
+
+footer ul {
+    list-style: none;
+}
+
+    footer ul li {
+        display: inline-block;
+        float: none;
+        font-size: 10pt;
+        width: 285px;
+        text-align: center;
+    }
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 10pt;
+}
+    footer ul li a:hover {
+        text-decoration:none;
+    }
+a {
+    text-decoration:none;
+    list-style:none;
+}
+/*ביטול קו תחתון מתחת לקישורים*/
+    a:hover {
+        text-decoration: none;
+    }
+
+/*קרדיט לתמונה בדף זוגות*/
+#co1 {
+    margin-left: 70%;
+    margin-top:-1%;
+    float:left;
+}
+
+#co2 {
+    margin-left: 4%;
+    margin-top: -1.5%;
+    float: left;
+}
+/*קרדיט בעמוד משפחות*/
+#fam1 {
+    float: left;
+    margin-left: 1.5%;
+}
+#fam2 {
+    margin-right: 54%;
+    margin-top: 0.2%;
+    float: right;
+}
+/*קרדיט לעמוד צעירים*/
+#yo1 {
+    margin-left: 70%;
+    margin-top: -1%;
+    float: left;
+}
+#yo2 {
+    float: right;
+    margin-right: 57%;
+    margin-top: -1.8%;
+}
+#yo3 {
+    float: left;
+    margin-left: 2.5%;
+    margin-top: -14px;
+}
+#too {
+    margin-left: 3px;
+    margin-top: -213px;
+    float: left;
+}
+
+.whatH {
+    text-align: center;
+    margin-top: 39px;
+}
+
+a #indi{
+    background-color: #0A7E3A;
+    text-align:center;
+}
+#indi {
+    background-color: #0A7E3A;
+    text-align: center;
+}
+
